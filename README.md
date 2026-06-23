@@ -69,6 +69,4 @@ Connect a single-cell LiPo or Li-Ion battery (3.7 V nominal) to the battery conn
 
 ## License
 
-<!-- TODO: Choose and add a license (e.g. CERN-OHL-P, MIT, CC BY-SA 4.0) -->
-
 Hardware design files are open source. See [LICENSE](LICENSE) for details.
