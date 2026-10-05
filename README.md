@@ -55,18 +55,6 @@ The Pin Map is similar to other ESP32-S3 modules like the ESP32-S3-DevKitC-1 or 
 
 Connect a single-cell LiPo or Li-Ion battery (3.7 V nominal) to the battery connector (JST PH 2-pin 2mm pitch connector). The MCP73831 charges the battery at 100mA.
 
-
-## Schematic & PCB
-
-![Schematic](<images/ESP32-S3 Stick_sch.jpg>)
-![Front Copper](<images/ESP32-S3 Stick_FCu.jpg>)
-![In plane 1 (GND)](<images/ESP32-S3 Stick_GND.jpg>)
-![In plane 2 (PWR)](<images/ESP32-S3 Stick_PWR.jpg>) 
-![Back Copper](<images/ESP32-S3 Stick_BCu.jpg>)
-![Front Silkscreen](<images/ESP32-S3 Stick_FSilk.jpg>)
-![Back Silkscreen](<images/ESP32-S3 Stick_BSilk.jpg>)
-
-
 ## License
 
 Hardware design files are open source. See [LICENSE](LICENSE) for details.
