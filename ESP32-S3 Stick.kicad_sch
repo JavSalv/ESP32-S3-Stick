@@ -10591,9 +10591,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)
@@ -13115,9 +13112,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "J3")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)
@@ -14085,9 +14079,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "U4")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)
@@ -14703,9 +14694,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "D4")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)
@@ -15537,9 +15525,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "U1")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)
@@ -18075,9 +18060,6 @@
 				(path "/f5890a13-2ec4-4268-96ea-99eb0e508762"
 					(reference "U5")
 					(unit 1)
-					(variant
-						(name "aaaa")
-					)
 				)
 			)
 		)

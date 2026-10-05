@@ -567,8 +567,12 @@
 			(pintype "passive")
 			(uuid "f22bf830-6f45-4b78-acbe-9f7c7c7372cf")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -636,6 +640,84 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e243cbe4-7f82-4ee8-89e3-9814b44e42c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1696CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60110a07-ada7-4b6a-aa84-1c875496bd09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C122969"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e87613df-6f63-437d-ad69-ec32d82fe76d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bbe4dcd-2aa3-40ec-b9ba-2a39ee641028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f7af477-cb11-4ce1-9f57-9382151fefa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "020e4751-45f2-4024-8da7-5a16ade33feb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "347aff62-391e-435e-bb1d-c65f4109f191")
 			(effects
 				(font
 					(size 1 1)
@@ -726,8 +808,12 @@
 			(pintype "passive")
 			(uuid "3dcb4296-9a4b-40f3-b220-7ed364ce9cf0")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -745,7 +831,7 @@
 		(at 57.1 92.6)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -757,7 +843,7 @@
 				)
 			)
 		)
-		(property "Value" "137K"
+		(property "Value" "137K/0.1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6a3a964d-0941-4101-95d4-512b19263379")
@@ -795,6 +881,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "27c7c999-2496-442c-9dce-73c086f90f77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "ERA-3AEB1373V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb8a8077-b110-445c-a5ee-1be10426e562")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C861114"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c457cfad-0f58-44fe-a07f-c978d3015885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a3de6dc-82b5-4de3-a1b6-d3f47a5e29e6")
 			(effects
 				(font
 					(size 1 1)
@@ -872,7 +997,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4-FB{slash}VSET)")
+			(net "Net-(U5-FB{slash}VSET)")
 			(pintype "passive")
 			(uuid "be04e1f3-bfc1-4853-804d-f0820ba8a088")
 		)
@@ -885,8 +1010,23 @@
 			(pintype "passive")
 			(uuid "868e6af2-3274-4a7e-b1f3-e03328393589")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "619K")
+			)
+			(field
+				(name "digikey#")
+				(value "P619KHCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C861497")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -904,7 +1044,7 @@
 		(at 42.8 44.5 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -938,7 +1078,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -954,6 +1094,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8b0a07bf-309c-4f8e-bc0f-f8d2b9d46fb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7df66bff-35ab-4a05-8dfa-b5c08b09df7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9eb7a988-cc4a-45de-a27d-c7ee686bb385")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10B104KB8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6db8a9d8-3443-4493-8e94-9ccd436793da")
 			(effects
 				(font
 					(size 1 1)
@@ -1044,8 +1223,12 @@
 			(pintype "passive")
 			(uuid "eb509665-0e7b-49e8-93a0-12e9e8eab481")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1114,6 +1297,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "74aa0a62-046a-4317-b235-0f8c64b8176d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceb70374-538d-4ebf-8920-eb3bf4e2bed2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C41375941"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c00f4851-c61d-46e4-9caf-45b9aca129bd")
 			(effects
 				(font
 					(size 1 1)
@@ -1450,7 +1659,7 @@
 			(uuid "06e25f62-6bdc-4db6-8beb-2e02bb43f55a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x22_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x22_P2.54mm_Vertical.stpZ"
 			(offset
 				(xyz 0 0 -1.5)
 			)
@@ -1468,7 +1677,7 @@
 		(at 53.45 72.35 -90)
 		(descr "MicroCrystal C7 SON, 8 Pin (https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf#page=107)")
 		(tags "MicroCrystal SON NoLead MicroCrystal-RV3028-C7")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 0 -2.63 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1647,7 +1856,7 @@
 			(size 0.95 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-CLKOUT-Pad1)")
+			(net "unconnected-(U4-CLKOUT-Pad1)")
 			(pinfunction "CLKOUT_1")
 			(pintype "output+no_connect")
 			(uuid "977e560b-6f68-4356-a680-0bac023e725d")
@@ -1657,7 +1866,7 @@
 			(size 0.95 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U5-~{INT}-Pad2)")
+			(net "unconnected-(U4-~{INT}-Pad2)")
 			(pinfunction "~{INT}_2")
 			(pintype "open_collector+no_connect")
 			(uuid "785d71ee-fc5c-4f8f-aa2a-bb32df06a4b8")
@@ -1697,7 +1906,7 @@
 			(size 0.95 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U5-VBACKUP)")
+			(net "Net-(U4-VBACKUP)")
 			(pinfunction "VBACKUP_6")
 			(pintype "power_in")
 			(uuid "129e2f1f-a3e5-4995-8e9f-97b42c649a97")
@@ -1717,7 +1926,7 @@
 			(size 0.95 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U5-EVI)")
+			(net "Net-(U4-EVI)")
 			(pinfunction "EVI_8")
 			(pintype "input")
 			(uuid "c78e50c9-bc94-4557-8684-ee1a930aca0a")
@@ -1907,7 +2116,7 @@
 			(size 1.25 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
-			(net "Net-(U4-SW)")
+			(net "Net-(U5-SW)")
 			(pintype "passive")
 			(uuid "35870663-7525-4b1a-b5f5-63ccf0c8c39f")
 		)
@@ -1920,8 +2129,12 @@
 			(pintype "passive")
 			(uuid "15f286b9-639c-49c5-b0d6-a3f94df6db01")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1939,7 +2152,7 @@
 		(at 53.3 79)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1973,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1989,6 +2202,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0928eed3-fe69-4a78-9c53-3dc6466805bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b346357b-1f21-498b-a3c6-78f9624a6e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a3d6bb9-d399-4d09-b7cb-d904c9be55cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d0fc20f-e7d8-48d0-aa23-8930d29529ab")
 			(effects
 				(font
 					(size 1 1)
@@ -2079,8 +2331,12 @@
 			(pintype "passive")
 			(uuid "5162b8aa-d79a-4047-b8d0-babb28f063a9")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2098,7 +2354,7 @@
 		(at 53.2 87.9)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2132,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2148,6 +2404,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8b3a1a06-a552-4e71-9680-6f2fc08b0990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75c0384d-7f3f-443f-98e8-aadfc12b9bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb92bfd7-9c9a-4a84-bfec-e049d3663840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da39a6c0-c52e-4c58-aaa3-93b5549d1ab4")
 			(effects
 				(font
 					(size 1 1)
@@ -2238,8 +2533,12 @@
 			(pintype "passive")
 			(uuid "45b7e374-1448-410a-8936-3220d35be8db")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2257,7 +2556,7 @@
 		(at 54 64.5 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R14"
+		(property "Reference" "R7"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2307,6 +2606,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bde1d2ba-4c0e-4186-8980-2d208f7d8775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce1cde6-7fbb-404e-83c2-c9091e762d1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c895009-9fac-4c75-8c08-c065488cfd56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3347183-37ed-43dd-9e85-3fef27f781ae")
 			(effects
 				(font
 					(size 1 1)
@@ -2397,8 +2735,27 @@
 			(pintype "passive")
 			(uuid "1df56064-c4f6-4edc-aac2-a20e66418f75")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2416,7 +2773,7 @@
 		(at 56.15 72.3 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2466,6 +2823,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1abdb6b8-0273-4ec9-9dd8-5e781daa4c78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5187352-599a-4513-90a7-ea3771881105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37d1642e-e8e7-4c5b-989f-e216a0ba1ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f880a8d1-a40a-4a00-a369-7981dde4e54b")
 			(effects
 				(font
 					(size 1 1)
@@ -2543,7 +2939,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U5-EVI)")
+			(net "Net-(U4-EVI)")
 			(pintype "passive")
 			(uuid "1ec17a5f-5622-4cfb-ba79-d5dc81bb4c16")
 		)
@@ -2556,8 +2952,27 @@
 			(pintype "passive")
 			(uuid "287343b4-b6bf-4a8d-996a-8121087a2f3e")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2887,7 +3302,7 @@
 			(uuid "e1f51772-6d5e-4a48-bc3f-056ecfe369dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2955,6 +3370,84 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6382c09c-d692-412a-b5ef-85ff02295d94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1696CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96352f82-15f4-4487-9eb1-7ea45fb4de9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C122969"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fc75025-6529-4dc8-8898-eac3c7e7f0e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93accdf4-c4d6-492e-bf52-384208bfce2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33af6191-253f-4520-89b9-0aaf1c1e29ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "647fc308-48d9-492e-a64e-340633642cfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3072b49f-ebd4-476e-8fc1-7ea9d39dc3c3")
 			(effects
 				(font
 					(size 1 1)
@@ -3045,8 +3538,12 @@
 			(pintype "passive")
 			(uuid "c252feb4-bd24-4b7d-9343-5f5f600988e2")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3064,7 +3561,7 @@
 		(at 55.5 95.26 -90)
 		(descr "https://www.ti.com/lit/ds/symlink/tps62933.pdf")
 		(tags "SOT-583-8")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 0 -2.2 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3305,7 +3802,7 @@
 			(size 0.67 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net "Net-(U4-FB{slash}VSET)")
+			(net "Net-(U5-FB{slash}VSET)")
 			(pinfunction "FB/VSET_1")
 			(pintype "input")
 			(thermal_bridge_angle 45)
@@ -3338,7 +3835,7 @@
 			(size 0.67 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1666666667)
-			(net "Net-(U4-SW)")
+			(net "Net-(U5-SW)")
 			(pinfunction "SW_4")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3389,7 +3886,7 @@
 			(uuid "e5ada02d-86dc-44bb-9c51-e55912b6d2ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-583-8.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-583-8.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3790,8 +4287,12 @@
 			(pintype "passive")
 			(uuid "60ca7c30-c942-4604-bc73-dc01da6e4dfd")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3809,7 +4310,7 @@
 		(at 57.6 103.22 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3859,6 +4360,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c37d15a6-f5de-4dcb-895e-63198f403ef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "311-100KGRCT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19464fd1-6d8c-4c55-8d99-6892558f6af1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C100048"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4addb8c1-b294-4e2c-b74e-463936919947")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RC0603JR-07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f7e036f-c3d3-44ef-9c2b-b79c70615a4b")
 			(effects
 				(font
 					(size 1 1)
@@ -3949,8 +4489,12 @@
 			(pintype "passive")
 			(uuid "1b6200ce-dc4d-4f07-a6e1-52281739c805")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4019,6 +4563,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c7ca125-5ed7-451f-b5a2-f1dacdf85796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8348ef32-3e73-4a4c-8679-9b78501c822c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C41375941"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b68598c-6231-43e7-a481-23c15c4f069e")
 			(effects
 				(font
 					(size 1 1)
@@ -4355,7 +4925,7 @@
 			(uuid "823d133e-a088-43d7-8553-1652d19f2793")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x22_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x22_P2.54mm_Vertical.stpZ"
 			(offset
 				(xyz 0 0 -1.5)
 			)
@@ -4629,6 +5199,10 @@
 			(pintype "passive")
 			(uuid "8bf10d64-5d99-40a3-bbea-8c452f0642e6")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/Custom_Footprints.pretty/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
 			(offset
@@ -4648,7 +5222,7 @@
 		(at 49.6 85 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4698,6 +5272,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "82cb1fb9-b053-45e6-97ec-6594c303cd49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a57904b9-9e45-4203-9791-882374c1d849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d560d388-1271-4ddb-bd73-8c61a53695bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b98613f2-2bcc-41a1-8498-11ae82e1dca2")
 			(effects
 				(font
 					(size 1 1)
@@ -4788,8 +5401,27 @@
 			(pintype "passive")
 			(uuid "5e930242-faa5-4eee-9443-7a063f231fea")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4807,7 +5439,7 @@
 		(at 57.3 112 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5025,13 +5657,17 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D2-A)")
+			(net "Net-(D3-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "6f0b7892-3724-4ff3-9f71-ee34b38d7c02")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5049,7 +5685,7 @@
 		(at 54.95 74.55)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5083,7 +5719,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5099,6 +5735,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c2a6642-2ea6-46ca-9459-011bb6dca417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1000-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b201bf0a-e58f-4daa-9fe5-97bcfbe092cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C1591"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97359cca-0a18-43d9-abe2-d5ada8a8aad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10B104KB8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e88605ab-4859-468a-98cf-9540916d2b22")
 			(effects
 				(font
 					(size 1 1)
@@ -5189,8 +5864,12 @@
 			(pintype "passive")
 			(uuid "e41b6d42-b58e-4dd1-91d6-bc4c72e6b38b")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5208,7 +5887,7 @@
 		(at 56.775 105.52)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5242,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5258,6 +5937,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25d3f49a-0887-4db2-a2cc-da6f1729b5f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1900-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7490e01-4f6f-425e-8bc8-6a6e01381195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C69335"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1da4ee9b-c83c-4f9b-8850-cec258c25f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A475KA8NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b4d8c07-b8e6-4822-8e2a-b5e8f92e539a")
 			(effects
 				(font
 					(size 1 1)
@@ -5348,8 +6066,31 @@
 			(pintype "passive")
 			(uuid "a42c3ee8-8504-438f-afcc-d150438a97b8")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Description")
+				(value "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)")
+			)
+			(field
+				(name "Value")
+				(value "22uF")
+			)
+			(field
+				(name "digikey#")
+				(value "1276-1274-1-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C86295")
+			)
+			(field
+				(name "manf#")
+				(value "CL10A226MP8NUNE")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5790,8 +6531,12 @@
 			(pintype "input")
 			(uuid "cff9e35b-dcd9-490b-a668-efde2b3e3033")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5809,7 +6554,7 @@
 		(at 55.5 64.5 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R15"
+		(property "Reference" "R8"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5859,6 +6604,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "10c35674-de2d-4ea4-920d-8da8f88e5b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06a2197e-ba56-4d65-9f0e-dea628db6f3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fafc7af-c3e9-41e5-ad63-66d2878029d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa0a3828-c11a-4837-841e-2e76b8ddf0f6")
 			(effects
 				(font
 					(size 1 1)
@@ -5949,8 +6733,27 @@
 			(pintype "passive")
 			(uuid "1f11c57b-5789-4d41-861f-87ccf3addd5b")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5968,7 +6771,7 @@
 		(at 56.3 90.3 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5980,7 +6783,7 @@
 				)
 			)
 		)
-		(property "Value" "619K"
+		(property "Value" "619K/0.1%"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "baa13bc5-087b-4b76-9938-a0a8148c481b")
@@ -6018,6 +6821,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c2a2132b-b0e7-487f-aa53-e63f6d9e71b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "MCT0603MD6193BP500"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e71dc90a-354e-4ac6-8bca-29c91c2117fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C861497"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a17b8f81-ff92-4383-ba18-4021c2f17346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "-"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "689e5538-9c1e-489a-a777-5a106481367f")
 			(effects
 				(font
 					(size 1 1)
@@ -6104,12 +6946,16 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U4-FB{slash}VSET)")
+			(net "Net-(U5-FB{slash}VSET)")
 			(pintype "passive")
 			(uuid "2edb8438-2c30-4390-a434-44a186320c71")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6127,7 +6973,7 @@
 		(at 54.725 97.4 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6161,7 +7007,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6177,6 +7023,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ac800a68-5757-4995-a129-f62f0d472615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1900-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4359d7-a8fc-4357-9653-2660a1426a1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C69335"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f612130b-a37d-4115-9bab-0c756d5e2f0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A475KA8NQNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb46e67f-ee89-4256-a1a8-ea80ed7c48f9")
 			(effects
 				(font
 					(size 1 1)
@@ -6267,8 +7152,31 @@
 			(pintype "passive")
 			(uuid "b75192c7-8c45-493d-a36e-ecd216e6412d")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Description")
+				(value "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)")
+			)
+			(field
+				(name "Value")
+				(value "22uF")
+			)
+			(field
+				(name "digikey#")
+				(value "1276-1274-1-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C86295")
+			)
+			(field
+				(name "manf#")
+				(value "CL10A226MP8NUNE")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6286,7 +7194,7 @@
 		(at 49.6 81.9 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6336,6 +7244,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8c9c9a2b-7fe2-4cfc-8601-8bf540375db8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed0a62e0-194f-45bf-ab91-aa5882b368f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6955c6f-9ba5-4cf9-b1e7-439642efe224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f8a0ad7-731c-4e0b-add7-ff494b6be4af")
 			(effects
 				(font
 					(size 1 1)
@@ -6426,8 +7373,27 @@
 			(pintype "passive")
 			(uuid "b1e822bb-52e3-444f-83a5-9582d53d31bb")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6668,8 +7634,12 @@
 			(pintype "passive")
 			(uuid "33457468-553b-461a-bbe9-4873bc9167db")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6735,6 +7705,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "5407-ESP32-S3-WROOM-1-N16R2CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e7811a6-05b4-4879-badf-0338ed88c566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C2913205"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "198e51b2-5ad5-4784-8dfc-e795dc7c746a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "ESP32-S3-WROOM-1-N16R2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8089bfe7-b3a0-4c05-85fc-a3cb33bb7980")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7570,7 +8579,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.step"
+		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7991,8 +9000,12 @@
 			(pintype "passive")
 			(uuid "ccfd23e0-a1df-4820-b0c0-833d4535b99b")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8408,6 +9421,10 @@
 			(pintype "passive")
 			(uuid "8ac76232-60df-4f72-9ec4-06d1260ee528")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/Custom_Footprints.pretty/CONN-TH_PH2.00-LI-2P.step"
 			(offset
@@ -8427,7 +9444,7 @@
 		(at 57.3 110.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8561,7 +9578,7 @@
 			(uuid "2a2f4272-36f6-4945-b3bd-1cdd0ee2aae7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8579,7 +9596,7 @@
 		(at 57.2875 107.5 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8797,13 +9814,17 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D3-A)")
+			(net "Net-(D2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "5412c297-8ce3-42c0-9390-881812aec672")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9077,6 +10098,10 @@
 			(pintype "passive")
 			(uuid "529ece74-5aba-4775-af09-d05fc1b941fd")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/Custom_Footprints.pretty/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
 			(offset
@@ -9096,7 +10121,7 @@
 		(at 51.95 74.55 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9146,6 +10171,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2de46ff6-f7ef-44de-8d52-f49a90d20a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1236CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58c6a3e9-b0c6-4e24-9e8b-05f6705c62aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C95204"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c8f821-e09f-4d30-aefa-6a9c7b340417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6491d0d1-399b-4b35-967d-e99338850fab")
 			(effects
 				(font
 					(size 1 1)
@@ -9223,7 +10287,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U5-VBACKUP)")
+			(net "Net-(U4-VBACKUP)")
 			(pintype "passive")
 			(uuid "d639e399-359e-4ebc-8f08-f984570c6c57")
 		)
@@ -9236,8 +10300,27 @@
 			(pintype "passive")
 			(uuid "fdc602fe-64b4-4a95-8cc1-8114cbc75ff3")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Value")
+				(value "100K")
+			)
+			(field
+				(name "digikey#")
+				(value "311-100KGRCT-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C100048")
+			)
+			(field
+				(name "manf#")
+				(value "RC0603JR-07100KL")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9289,7 +10372,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9305,6 +10388,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c11b4df1-c57f-41c4-9892-096329b7a04d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1900-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e93a74d8-fc6c-4ad6-8cfd-df320fc41f89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C69335"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97fc2a90-245e-4235-b49d-48c457cf4389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A475KA8NQNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6825040-3f41-4207-8431-76807431379b")
 			(effects
 				(font
 					(size 1 1)
@@ -9395,8 +10517,31 @@
 			(pintype "passive")
 			(uuid "0c8a5be7-32f7-4882-91bd-d56c5374bc43")
 		)
+		(variant
+			(name "aaaa")
+			(field
+				(name "Description")
+				(value "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)")
+			)
+			(field
+				(name "Value")
+				(value "22uF")
+			)
+			(field
+				(name "digikey#")
+				(value "1276-1274-1-ND")
+			)
+			(field
+				(name "lcsc#")
+				(value "C86295")
+			)
+			(field
+				(name "manf#")
+				(value "CL10A226MP8NUNE")
+			)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9414,7 +10559,7 @@
 		(at 42.8 47.5 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9448,7 +10593,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9464,6 +10609,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "01ff0ae3-9bd8-401d-9343-81f146e81564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1274-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b34b5c93-761f-4398-9bc9-74eedcdfc2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C86295"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f1eeb85-4d8c-44f8-bc4b-de3784d0d7c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A226MP8NUNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f607711-c5be-4c20-a950-2deace4460fc")
 			(effects
 				(font
 					(size 1 1)
@@ -9554,8 +10738,12 @@
 			(pintype "passive")
 			(uuid "b94b5f47-f1bf-46a8-b0fb-68d14b9c4b3a")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9573,7 +10761,7 @@
 		(at 51.2 103.495 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9707,7 +10895,7 @@
 			(uuid "34614f50-d55d-4a88-8e47-78caf35da7a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9725,7 +10913,7 @@
 		(at 51.9 95.2 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9759,7 +10947,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9775,6 +10963,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "350a5d29-46aa-4e08-ac9a-a09c0fefdd78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "1276-1274-1-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a0b7061-0a31-433f-9c41-4d4e2ca52241")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C86295"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "265e09e4-02d0-4c52-9822-79bab427413c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A226MP8NUNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "666e610c-d505-477a-9c09-226320011c28")
 			(effects
 				(font
 					(size 1 1)
@@ -9865,8 +11092,12 @@
 			(pintype "passive")
 			(uuid "a2554de3-6260-4e2b-9299-01d7fbe68073")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9884,7 +11115,7 @@
 		(at 50.3 110.7 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9934,6 +11165,84 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "abe686d0-93da-4a1a-baa1-f13e50c099c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "digikey#" "YAG1696CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e7d38cb-b392-4c87-b19b-f1bd11828774")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "lcsc#" "C122969"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f85416-63c6-47f9-b401-e9d80b7e1ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "RT0603BRD075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d15d3c83-b951-4dd8-9b02-e56b5d08e6e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3864306-3037-4e94-a6d2-bedef938b35e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2a8d801-bee2-4493-9309-fb912141a214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835dffc9-ae55-42af-a992-f859bce91e82")
 			(effects
 				(font
 					(size 1 1)
@@ -10024,8 +11333,12 @@
 			(pintype "passive")
 			(uuid "df01e620-1c85-4c55-bd31-89949dadf4a5")
 		)
+		(variant
+			(name "aaaa")
+			(dnp yes)
+		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10043,7 +11356,7 @@
 		(at 57.2875 109 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10177,7 +11490,7 @@
 			(uuid "b841ee4e-0cdc-4447-96d9-53e8a9022cc0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16629,7 +17942,7 @@
 		(end 54.8 73)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(U5-EVI)")
+		(net "Net-(U4-EVI)")
 		(uuid "2f3d576a-e748-4de8-920f-6d1da9470a1b")
 	)
 	(segment
@@ -16637,7 +17950,7 @@
 		(end 54.925 73.125)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(U5-EVI)")
+		(net "Net-(U4-EVI)")
 		(uuid "8cbd5644-150b-4a0f-b397-dd4fd2f15810")
 	)
 	(segment
@@ -16645,7 +17958,7 @@
 		(end 52.775 74.55)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(U5-VBACKUP)")
+		(net "Net-(U4-VBACKUP)")
 		(uuid "1633e30f-ab76-478f-8f3d-16d38f84d059")
 	)
 	(segment
@@ -16653,7 +17966,7 @@
 		(end 53 74.325)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(U5-VBACKUP)")
+		(net "Net-(U4-VBACKUP)")
 		(uuid "33018884-6d2d-453f-956c-ed12cb5a9217")
 	)
 	(segment
@@ -16661,7 +17974,7 @@
 		(end 56.275 92.6)
 		(width 0.6)
 		(layer "F.Cu")
-		(net "Net-(U4-FB{slash}VSET)")
+		(net "Net-(U5-FB{slash}VSET)")
 		(uuid "59e43921-80a9-473f-8d50-5f499560aa9a")
 	)
 	(zone
@@ -16717,7 +18030,7 @@
 		)
 	)
 	(zone
-		(net "Net-(U4-FB{slash}VSET)")
+		(net "Net-(U5-FB{slash}VSET)")
 		(layer "F.Cu")
 		(uuid "1a3cc2b2-426b-4fd4-b867-02213e49a0da")
 		(name "FB-VSET")
@@ -16753,7 +18066,7 @@
 		)
 	)
 	(zone
-		(net "Net-(U4-SW)")
+		(net "Net-(U5-SW)")
 		(layer "F.Cu")
 		(uuid "27ddc9c7-5261-4cfe-a0ba-6971f865b3fc")
 		(name "SW")
